@@ -1,0 +1,32 @@
+[
+  {
+    "De": "Youtube",
+    "Asunto": "DarthLogan acaba de subir un vídeo",
+    "Detalle": "No te pierdas de un nuevo vídeo sobre JAVA",
+    "Imagen": "https://ibb.co/J7ZLW2S"
+  },
+  {
+    "De": "PayPal",
+    "Asunto": "Recibo de su pago realizado a Boa Compra",
+    "Detalle": "Ha enviado un pago por importe de $4.99",
+    "Imagen": "https://ibb.co/R00Bcps"
+  },
+  {
+    "De": "Pinterest",
+    "Asunto": "Nuevo inicio de sesión en tu cuenta",
+    "Detalle": "Se ha iniciado sesión en un nuevo dispositivo",
+    "Imagen": "https://ibb.co/NKM3kF1"
+  },
+  {
+    "De": "PayPal",
+    "Asunto": "Recibo de su pago realizado a Boa Compra",
+    "Detalle": "Ha enviado un pago por importe de $10.22",
+    "Imagen": "https://ibb.co/R00Bcps"
+  },
+  {
+    "De": "Google",
+    "Asunto": "Alerta de seguridad",
+    "Detalle": "Se ha iniciado sesión desde un dispositivo nuevo",
+    "Imagen": "https://ibb.co/5r9mjhq"
+  }
+]

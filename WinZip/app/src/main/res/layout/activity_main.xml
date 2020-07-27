@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/draw_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".MainActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:background="#0347F4"
+            android:backgroundTint="#415AE3"
+            android:minHeight="?attr/actionBarSize"
+            app:popupTheme="@style/AppTheme">
+            <TextView
+                android:id="@+id/txtheader"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:paddingEnd="30dp"
+                android:gravity="left|center"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:text="Reciente"
+                android:textSize="25dp"
+                 ></TextView>
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/order"
+                android:layout_gravity="end"
+                android:layout_marginEnd="20dp"
+                android:onClick="message"
+                ></de.hdodenhof.circleimageview.CircleImageView>
+
+        </androidx.appcompat.widget.Toolbar>
+        <TextView
+            android:id="@+id/txtinfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="Bienvendido"
+            android:textSize="40dp"/>
+    </RelativeLayout>
+
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/navigation_draw"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        app:headerLayout="@layout/header_layout"
+        app:menu="@menu/draw_menu"
+        app:itemIconTint="#E6000000"
+        app:itemTextColor="#E6000000"
+        android:fitsSystemWindows="false"
+        ></com.google.android.material.navigation.NavigationView>
+</androidx.drawerlayout.widget.DrawerLayout>

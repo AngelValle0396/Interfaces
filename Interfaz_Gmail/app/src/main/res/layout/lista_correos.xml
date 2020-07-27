@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@+id/cardview"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+     >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:padding="10dp">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/icon"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="3dp"
+            android:src="@drawable/google2">
+        </de.hdodenhof.circleimageview.CircleImageView>
+        <TextView
+            android:id="@+id/de"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Google"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:layout_toRightOf="@+id/icon"
+            android:layout_toEndOf="@+id/icon"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            ></TextView>
+        <TextView
+            android:id="@+id/asunto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Alerta de seguridad"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:layout_toRightOf="@+id/icon"
+            android:layout_toEndOf="@+id/icon"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="18dp"
+            ></TextView>
+
+        <TextView
+            android:id="@+id/detalle"
+            android:layout_width="262dp"
+            android:layout_height="24dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="38dp"
+            android:layout_toEndOf="@+id/icon"
+            android:layout_toRightOf="@+id/icon"
+            android:text="Se ha iniciado sesión en un nuevo...."
+            android:textSize="16dp"></TextView>
+
+        <TextView
+            android:id="@+id/fecha"
+            android:layout_width="55dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="288dp"
+            android:layout_marginTop="3dp"
+            android:layout_toRightOf="@+id/icon"
+
+            android:gravity="right"
+            android:text="15 jul."
+            android:textStyle="bold"></TextView>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/star"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="6dp"
+            android:layout_marginBottom="4dp"
+            android:src="@drawable/star">
+
+        </de.hdodenhof.circleimageview.CircleImageView>
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>

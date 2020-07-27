@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/item_one"
+        android:checkable="true"
+        android:icon="@drawable/icons8_home_24px_1"
+        android:title="Principal"
+        ></item>
+    <item
+        android:id="@+id/item_two"
+        android:checkable="true"
+        android:icon="@drawable/icons8_star_24px"
+        android:title="Favoritos"
+        ></item>
+    <item
+        android:id="@+id/item_tres"
+        android:checkable="true"
+        android:icon="@drawable/icons8_user_account_24px"
+        android:title="Compartidos"
+        ></item>
+    <item
+        android:id="@+id/item_four"
+        android:checkable="true"
+        android:icon="@drawable/folder"
+        android:title="Archivos"
+        ></item>
+</menu>

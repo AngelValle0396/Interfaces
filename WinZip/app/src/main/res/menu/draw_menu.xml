@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+    <item
+        android:id="@+id/item_a"
+        android:checkable="true"
+        android:title="Recent"
+        android:icon="@drawable/recent"
+        >
+    </item>
+    <item
+        android:id="@+id/item_b"
+        android:checkable="true"
+        android:icon="@drawable/favorites"
+        android:title="Favorites"
+        ></item>
+
+    </group>
+    <group android:checkableBehavior="single">
+        <item
+        android:id="@+id/itm_all"
+        android:checkable="true"
+        android:title="Places"
+        >
+        <menu>
+            <item
+                android:id="@+id/item_c"
+                android:checkable="true"
+                android:icon="@drawable/files"
+                android:title="My Files"
+                ></item>
+            <item
+                android:id="@+id/item_d"
+                android:checkable="true"
+                android:icon="@drawable/storage"
+                android:title="Storage"
+                ></item>
+
+            <item
+                android:id="@+id/item_e"
+                android:checkable="true"
+                android:icon="@drawable/image"
+                android:title="Photos"
+                ></item>
+            <item
+                android:id="@+id/item_f"
+                android:checkable="true"
+                android:icon="@drawable/musci"
+                android:title="Music"
+                ></item>
+        </menu>
+    </item>
+    </group>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/itm_all2"
+            android:checkable="true"
+            android:title="Tool"
+            >
+            <menu>
+                <item
+                    android:id="@+id/item_g"
+                    android:checkable="true"
+                    android:icon="@drawable/connect"
+                    android:title="Network"
+                    ></item>
+                <item
+                    android:id="@+id/item_h"
+                    android:checkable="true"
+                    android:icon="@drawable/drop"
+                    android:title="Dropbox"
+                    ></item>
+                <item
+                    android:id="@+id/item_i"
+                    android:checkable="true"
+                    android:icon="@drawable/driv"
+                    android:title="Google Drive"
+                    ></item>
+            </menu>
+        </item>
+    </group>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/itm_all4"
+            android:checkable="true"
+            android:title="Settings">
+            <menu>
+                <item
+                    android:id="@+id/item_j"
+                    android:checkable="true"
+                    android:icon="@drawable/purchase"
+                    android:title="Purchase"
+                    ></item>
+                <item
+                    android:id="@+id/item_k"
+                    android:checkable="true"
+                    android:icon="@drawable/settings"
+                    android:title="Settings"
+                    ></item>
+                <item
+                    android:id="@+id/item_l"
+                    android:checkable="true"
+                    android:icon="@drawable/exit"
+                    android:title="Exit"
+                    ></item>
+            </menu>
+        </item>
+    </group>
+</menu>

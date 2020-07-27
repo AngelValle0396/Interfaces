@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+    <item
+        android:id="@+id/item_a"
+        android:checkable="true"
+        android:title="Reciente"
+        android:icon="@drawable/time"
+        >
+    </item>
+    <item
+        android:id="@+id/item_b"
+        android:checkable="true"
+        android:icon="@drawable/check"
+        android:title="Sin conexión"
+        ></item>
+        <item
+            android:id="@+id/item_c"
+            android:checkable="true"
+            android:icon="@drawable/recycler"
+            android:title="Papelera"
+            ></item>
+        <item
+            android:id="@+id/item_d"
+            android:checkable="true"
+            android:icon="@drawable/notification"
+            android:title="Notificaciones"
+            ></item>
+        <item
+            android:id="@+id/item_e"
+            android:checkable="true"
+            android:icon="@drawable/cloudup"
+            android:title="Copias de seguridad"
+            ></item>
+        <item
+            android:id="@+id/item_f"
+            android:checkable="true"
+            android:icon="@drawable/icons8_settings_24px_1"
+            android:title="Configuración"
+            ></item>
+        <item
+            android:id="@+id/item_g"
+            android:checkable="true"
+            android:icon="@drawable/help"
+            android:title="Ayuda y comentarios"
+            ></item>
+        <item
+            android:id="@+id/item_h"
+            android:checkable="true"
+            android:icon="@drawable/icons8_stack_24px_1"
+            android:title="Almacenamiento (69% lleno)"
+            >
+        </item>
+    </group>
+
+</menu>
